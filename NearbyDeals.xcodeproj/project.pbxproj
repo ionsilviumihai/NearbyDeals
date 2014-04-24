@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4156F310190903040013100A /* DealsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4156F30F190903040013100A /* DealsModel.m */; };
+		4156F312190940580013100A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4156F311190940580013100A /* MapKit.framework */; };
+		4156F315190940870013100A /* DealAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4156F314190940870013100A /* DealAnnotation.m */; };
+		4156F318190941450013100A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4156F317190941450013100A /* MapViewController.m */; };
+		41B7D3F91907F406006742DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B7D3F81907F406006742DC /* Foundation.framework */; };
+		41B7D3FB1907F406006742DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B7D3FA1907F406006742DC /* CoreGraphics.framework */; };
+		41B7D3FD1907F406006742DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B7D3FC1907F406006742DC /* UIKit.framework */; };
+		41B7D4031907F406006742DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41B7D4011907F406006742DC /* InfoPlist.strings */; };
+		41B7D4051907F406006742DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B7D4041907F406006742DC /* main.m */; };
+		41B7D4091907F406006742DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B7D4081907F406006742DC /* AppDelegate.m */; };
+		41B7D40C1907F406006742DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B7D40A1907F406006742DC /* Main.storyboard */; };
+		41B7D40F1907F406006742DC /* DealDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B7D40E1907F406006742DC /* DealDetailsViewController.m */; };
+		41B7D4111907F406006742DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B7D4101907F406006742DC /* Images.xcassets */; };
+		41B7D4181907F406006742DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B7D4171907F406006742DC /* XCTest.framework */; };
+		41B7D4191907F406006742DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B7D3F81907F406006742DC /* Foundation.framework */; };
+		41B7D41A1907F406006742DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B7D3FC1907F406006742DC /* UIKit.framework */; };
+		41B7D4221907F406006742DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41B7D4201907F406006742DC /* InfoPlist.strings */; };
+		41B7D4241907F406006742DC /* NearbyDealsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B7D4231907F406006742DC /* NearbyDealsTests.m */; };
+		41B7D43A1907F912006742DC /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B7D4381907F912006742DC /* list.png */; };
+		41B7D43B1907F912006742DC /* treasure_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B7D4391907F912006742DC /* treasure_map.png */; };
+		41B7D43E1907FA4B006742DC /* DealsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B7D43D1907FA4B006742DC /* DealsTableViewController.m */; };
+		41B7D4401907FF60006742DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B7D43F1907FF60006742DC /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41B7D41B1907F406006742DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41B7D3ED1907F406006742DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41B7D3F41907F406006742DC;
+			remoteInfo = NearbyDeals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4156F30E190903040013100A /* DealsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealsModel.h; sourceTree = "<group>"; };
+		4156F30F190903040013100A /* DealsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealsModel.m; sourceTree = "<group>"; };
+		4156F311190940580013100A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4156F313190940870013100A /* DealAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealAnnotation.h; sourceTree = "<group>"; };
+		4156F314190940870013100A /* DealAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealAnnotation.m; sourceTree = "<group>"; };
+		4156F316190941450013100A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		4156F317190941450013100A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		41B7D3F51907F406006742DC /* NearbyDeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyDeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B7D3F81907F406006742DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41B7D3FA1907F406006742DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41B7D3FC1907F406006742DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41B7D4001907F406006742DC /* NearbyDeals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NearbyDeals-Info.plist"; sourceTree = "<group>"; };
+		41B7D4021907F406006742DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41B7D4041907F406006742DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41B7D4061907F406006742DC /* NearbyDeals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NearbyDeals-Prefix.pch"; sourceTree = "<group>"; };
+		41B7D4071907F406006742DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41B7D4081907F406006742DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41B7D40B1907F406006742DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41B7D40D1907F406006742DC /* DealDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealDetailsViewController.h; sourceTree = "<group>"; };
+		41B7D40E1907F406006742DC /* DealDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DealDetailsViewController.m; sourceTree = "<group>"; };
+		41B7D4101907F406006742DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41B7D4161907F406006742DC /* NearbyDealsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyDealsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B7D4171907F406006742DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41B7D41F1907F406006742DC /* NearbyDealsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NearbyDealsTests-Info.plist"; sourceTree = "<group>"; };
+		41B7D4211907F406006742DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41B7D4231907F406006742DC /* NearbyDealsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearbyDealsTests.m; sourceTree = "<group>"; };
+		41B7D4381907F912006742DC /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		41B7D4391907F912006742DC /* treasure_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treasure_map.png; sourceTree = "<group>"; };
+		41B7D43C1907FA4B006742DC /* DealsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealsTableViewController.h; sourceTree = "<group>"; };
+		41B7D43D1907FA4B006742DC /* DealsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealsTableViewController.m; sourceTree = "<group>"; };
+		41B7D43F1907FF60006742DC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41B7D3F21907F406006742DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4156F312190940580013100A /* MapKit.framework in Frameworks */,
+				41B7D4401907FF60006742DC /* CoreLocation.framework in Frameworks */,
+				41B7D3FB1907F406006742DC /* CoreGraphics.framework in Frameworks */,
+				41B7D3FD1907F406006742DC /* UIKit.framework in Frameworks */,
+				41B7D3F91907F406006742DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B7D4131907F406006742DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B7D4181907F406006742DC /* XCTest.framework in Frameworks */,
+				41B7D41A1907F406006742DC /* UIKit.framework in Frameworks */,
+				41B7D4191907F406006742DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41B7D3EC1907F406006742DC = {
+			isa = PBXGroup;
+			children = (
+				41B7D4371907F912006742DC /* ImagesSet */,
+				41B7D3FE1907F406006742DC /* NearbyDeals */,
+				41B7D41D1907F406006742DC /* NearbyDealsTests */,
+				41B7D3F71907F406006742DC /* Frameworks */,
+				41B7D3F61907F406006742DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41B7D3F61907F406006742DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41B7D3F51907F406006742DC /* NearbyDeals.app */,
+				41B7D4161907F406006742DC /* NearbyDealsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41B7D3F71907F406006742DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4156F311190940580013100A /* MapKit.framework */,
+				41B7D43F1907FF60006742DC /* CoreLocation.framework */,
+				41B7D3F81907F406006742DC /* Foundation.framework */,
+				41B7D3FA1907F406006742DC /* CoreGraphics.framework */,
+				41B7D3FC1907F406006742DC /* UIKit.framework */,
+				41B7D4171907F406006742DC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41B7D3FE1907F406006742DC /* NearbyDeals */ = {
+			isa = PBXGroup;
+			children = (
+				41B7D4071907F406006742DC /* AppDelegate.h */,
+				41B7D4081907F406006742DC /* AppDelegate.m */,
+				41B7D40A1907F406006742DC /* Main.storyboard */,
+				41B7D40D1907F406006742DC /* DealDetailsViewController.h */,
+				41B7D40E1907F406006742DC /* DealDetailsViewController.m */,
+				41B7D43C1907FA4B006742DC /* DealsTableViewController.h */,
+				41B7D43D1907FA4B006742DC /* DealsTableViewController.m */,
+				4156F30E190903040013100A /* DealsModel.h */,
+				4156F30F190903040013100A /* DealsModel.m */,
+				4156F313190940870013100A /* DealAnnotation.h */,
+				4156F314190940870013100A /* DealAnnotation.m */,
+				4156F316190941450013100A /* MapViewController.h */,
+				4156F317190941450013100A /* MapViewController.m */,
+				41B7D4101907F406006742DC /* Images.xcassets */,
+				41B7D3FF1907F406006742DC /* Supporting Files */,
+			);
+			path = NearbyDeals;
+			sourceTree = "<group>";
+		};
+		41B7D3FF1907F406006742DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41B7D4001907F406006742DC /* NearbyDeals-Info.plist */,
+				41B7D4011907F406006742DC /* InfoPlist.strings */,
+				41B7D4041907F406006742DC /* main.m */,
+				41B7D4061907F406006742DC /* NearbyDeals-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41B7D41D1907F406006742DC /* NearbyDealsTests */ = {
+			isa = PBXGroup;
+			children = (
+				41B7D4231907F406006742DC /* NearbyDealsTests.m */,
+				41B7D41E1907F406006742DC /* Supporting Files */,
+			);
+			path = NearbyDealsTests;
+			sourceTree = "<group>";
+		};
+		41B7D41E1907F406006742DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41B7D41F1907F406006742DC /* NearbyDealsTests-Info.plist */,
+				41B7D4201907F406006742DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41B7D4371907F912006742DC /* ImagesSet */ = {
+			isa = PBXGroup;
+			children = (
+				41B7D4381907F912006742DC /* list.png */,
+				41B7D4391907F912006742DC /* treasure_map.png */,
+			);
+			path = ImagesSet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41B7D3F41907F406006742DC /* NearbyDeals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B7D4271907F406006742DC /* Build configuration list for PBXNativeTarget "NearbyDeals" */;
+			buildPhases = (
+				41B7D3F11907F406006742DC /* Sources */,
+				41B7D3F21907F406006742DC /* Frameworks */,
+				41B7D3F31907F406006742DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearbyDeals;
+			productName = NearbyDeals;
+			productReference = 41B7D3F51907F406006742DC /* NearbyDeals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41B7D4151907F406006742DC /* NearbyDealsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B7D42A1907F406006742DC /* Build configuration list for PBXNativeTarget "NearbyDealsTests" */;
+			buildPhases = (
+				41B7D4121907F406006742DC /* Sources */,
+				41B7D4131907F406006742DC /* Frameworks */,
+				41B7D4141907F406006742DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41B7D41C1907F406006742DC /* PBXTargetDependency */,
+			);
+			name = NearbyDealsTests;
+			productName = NearbyDealsTests;
+			productReference = 41B7D4161907F406006742DC /* NearbyDealsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41B7D3ED1907F406006742DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sparktech;
+				TargetAttributes = {
+					41B7D4151907F406006742DC = {
+						TestTargetID = 41B7D3F41907F406006742DC;
+					};
+				};
+			};
+			buildConfigurationList = 41B7D3F01907F406006742DC /* Build configuration list for PBXProject "NearbyDeals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41B7D3EC1907F406006742DC;
+			productRefGroup = 41B7D3F61907F406006742DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41B7D3F41907F406006742DC /* NearbyDeals */,
+				41B7D4151907F406006742DC /* NearbyDealsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41B7D3F31907F406006742DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B7D4111907F406006742DC /* Images.xcassets in Resources */,
+				41B7D43B1907F912006742DC /* treasure_map.png in Resources */,
+				41B7D4031907F406006742DC /* InfoPlist.strings in Resources */,
+				41B7D40C1907F406006742DC /* Main.storyboard in Resources */,
+				41B7D43A1907F912006742DC /* list.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B7D4141907F406006742DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B7D4221907F406006742DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41B7D3F11907F406006742DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B7D40F1907F406006742DC /* DealDetailsViewController.m in Sources */,
+				41B7D43E1907FA4B006742DC /* DealsTableViewController.m in Sources */,
+				4156F315190940870013100A /* DealAnnotation.m in Sources */,
+				4156F310190903040013100A /* DealsModel.m in Sources */,
+				41B7D4091907F406006742DC /* AppDelegate.m in Sources */,
+				41B7D4051907F406006742DC /* main.m in Sources */,
+				4156F318190941450013100A /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B7D4121907F406006742DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B7D4241907F406006742DC /* NearbyDealsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41B7D41C1907F406006742DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41B7D3F41907F406006742DC /* NearbyDeals */;
+			targetProxy = 41B7D41B1907F406006742DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41B7D4011907F406006742DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B7D4021907F406006742DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41B7D40A1907F406006742DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B7D40B1907F406006742DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41B7D4201907F406006742DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B7D4211907F406006742DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41B7D4251907F406006742DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41B7D4261907F406006742DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41B7D4281907F406006742DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NearbyDeals/NearbyDeals-Prefix.pch";
+				INFOPLIST_FILE = "NearbyDeals/NearbyDeals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41B7D4291907F406006742DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NearbyDeals/NearbyDeals-Prefix.pch";
+				INFOPLIST_FILE = "NearbyDeals/NearbyDeals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41B7D42B1907F406006742DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NearbyDeals.app/NearbyDeals";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NearbyDeals/NearbyDeals-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NearbyDealsTests/NearbyDealsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		41B7D42C1907F406006742DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NearbyDeals.app/NearbyDeals";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NearbyDeals/NearbyDeals-Prefix.pch";
+				INFOPLIST_FILE = "NearbyDealsTests/NearbyDealsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41B7D3F01907F406006742DC /* Build configuration list for PBXProject "NearbyDeals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B7D4251907F406006742DC /* Debug */,
+				41B7D4261907F406006742DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41B7D4271907F406006742DC /* Build configuration list for PBXNativeTarget "NearbyDeals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B7D4281907F406006742DC /* Debug */,
+				41B7D4291907F406006742DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41B7D42A1907F406006742DC /* Build configuration list for PBXNativeTarget "NearbyDealsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B7D42B1907F406006742DC /* Debug */,
+				41B7D42C1907F406006742DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41B7D3ED1907F406006742DC /* Project object */;
+}
